@@ -1,0 +1,36 @@
+{
+  "name": "clone-x",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "gen-types": "npx supabase gen types typescript --project-id jxwyspsjthmsnueotkwa > ./src/app/types/database.ts"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.4.6",
+    "@supabase/auth-helpers-nextjs": "0.10.0",
+    "@supabase/supabase-js": "2.45.3",
+    "@tabler/icons-react": "^3.14.0",
+    "framer-motion": "^11.3.31",
+    "next": "14.2.7",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.7",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "typescript-eslint": "^8.3.0"
+  }
+}
